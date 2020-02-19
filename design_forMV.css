@@ -33,7 +33,11 @@ filter: grayscale(100%);
     left: 0;
 }
 
-
+/*---------内側にborder---------*/
+.example{
+  border: 10px solid gray;
+  box-sizing: border-box;
+}
 
 
 
