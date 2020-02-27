@@ -145,6 +145,7 @@ input[name="tab_item"] {
 }
 /*------beforeにfontawesomeを挿入する--------*/
 h1:before {
-  content: "\f14a";
-  font-family: FontAwesome;
+  content: "\f0a9";
+  font-family: "Font Awesome 5 Free";
+  font-weight: bold;
 }
