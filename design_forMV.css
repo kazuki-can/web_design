@@ -143,3 +143,8 @@ input[name="tab_item"] {
   background-color: #5ab4bd;
   color: #fff;
 }
+/*------beforeにfontawesomeを挿入する--------*/
+h1:before {
+  content: "\f14a";
+  font-family: FontAwesome;
+}
