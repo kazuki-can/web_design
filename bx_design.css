@@ -1,0 +1,25 @@
+/*---------------bxslider基本設定----------------*/
+.classname .bx-viewport{
+  height: auto!important;
+}
+.classname .bx-wrapper{
+  -moz-box-shadow: none;
+  -webkit-box-shadow:none;
+  box-shadow: none;
+  border: none;
+  background:transparent;
+}
+.classname .bx-wrapper .bx-pager {
+  color: #fff;
+  padding-top: 30px;
+}
+.classname .bx-wrapper .bx-pager.bx-default-pager a {
+  background: #fff;
+}
+.classname .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus {
+  background: #51b033;
+}
+.classname .bx-viewport li{
+  width: 350px!important;
+  margin: 0 calc(50px/6);
+}
